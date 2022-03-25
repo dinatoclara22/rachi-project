@@ -1,0 +1,17 @@
+.navegacao {
+    display: flex;
+    justify-content: space-around;
+    margin: 1.5rem;
+    text-decoration: none;
+}
+
+.nav-links {
+    display: flex;
+    list-style: none;
+    gap: 2.5rem;
+}
+
+.nav-links-item a{
+    color: var(--grey);
+    text-decoration: none;
+}

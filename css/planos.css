@@ -1,0 +1,140 @@
+.planos {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+
+  text-align: center;
+
+  padding: 5rem;
+  
+}
+
+.planos-header {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+}
+
+.planos-header h1 {
+  font-weight: 600;
+  font-size: 40px;
+}
+
+.planos-header p {
+  color: var(--grey);
+  font-size: 18px;
+  font-family: "Inter", sans-serif;
+  margin-top: 1rem;
+}
+
+.card-plan {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 1.5rem;
+  padding: 6rem;
+}
+
+.plan {
+  background: var(--white-200);
+  border-radius: 5px;
+}
+
+.plan-top {
+  font-size: 24px;
+  font-weight: 600;
+  padding-top: 3.5rem;
+  margin-bottom: 2rem;
+}
+
+.plan-top-preferido {
+  padding-top: 2rem;
+  padding-bottom: 2rem;
+  font-size: 32px;
+}
+
+.plan-text {
+  color: var(--grey);
+}
+
+.plan span {
+  font-family: "Roboto", sans-serif;
+}
+
+.price {
+    font-weight: bold;
+    margin-bottom: 1rem;
+    color: var(--grey-200);
+}
+
+.price-preferido {
+    font-weight: bold;
+    margin-bottom: 1rem;
+    color: var(--white);
+}
+
+.cifrao {
+  font-size: 20px;
+  vertical-align: super;
+}
+
+.number {
+  font-size: 50px;
+}
+
+.month {
+  font-size: 26px;
+}
+
+.plan-preferido {
+  background: var(--grey-200);
+  border-radius: 5px;
+  color: var(--white);
+}
+
+.plan-text-preferido {
+    color: var(--grey-light);
+}
+
+.preferido {
+  border: none;
+  border-radius: 15px;
+  background: var(--blue);
+
+  color: var(--white);
+  text-transform: uppercase;
+  font-family: "Inter", sans-serif;
+  font-weight: 600;
+  letter-spacing: 0.2em;
+  
+  margin-bottom: 1rem;
+  width: 164px;
+  height: 27px;
+}
+
+.botao {
+  background: var(--blue);
+  border: none;
+  box-shadow: 1px 3px 4px rgba(19, 125, 224, 0.5);
+  border-radius: 50px;
+
+  color: var(--white);
+  cursor: pointer;
+  font-weight: bold;
+  font-size: 20px;
+  font-family: "Nunito", sans-serif;
+
+  margin-top: 2.5rem;
+  margin-bottom: 2.5rem;
+
+  width: 230px;
+  height: 43px;
+
+  transition: .5s all;
+}
+
+.botao:hover {
+  background: var(--white-200);
+    color: var(--blue);
+}

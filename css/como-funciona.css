@@ -1,0 +1,35 @@
+.como-funciona {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 450px;
+
+}
+
+.como-funciona h1 {
+    margin-bottom: 4rem;
+}
+
+.como-funciona--item {
+    margin-top: 40px;
+
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: row;
+    text-align: center;
+    gap: 5rem;
+}
+
+.box {
+    width: 300px;
+    
+}
+
+.descricao {
+    color: var(--grey);
+    padding-top: 1.5rem;
+    font-weight: 400;
+}
+

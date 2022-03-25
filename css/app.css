@@ -1,0 +1,36 @@
+.app {
+    background: var(--white-200);
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    height: 475px;
+    padding: 100px 150px 100px 150px;
+}
+
+.container{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.conteudo-title {
+    font-size: 32px;
+    font-weight: 600;
+    padding-bottom: 1rem;
+}
+
+.conteudo-text {
+    color: var(--grey);
+    font-family: 'Inter', sans-serif;
+    width: 500px;
+    margin-top: 20px;
+}
+
+.img-apps {
+    display: flex;
+    gap: 1rem;   
+
+    margin-top: 34px;
+    
+}

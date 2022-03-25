@@ -1,0 +1,44 @@
+.principal {
+    background: var(--white-200);
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 2rem 0 2rem 0; /* superior | direita | inferior | esquerda */
+}
+
+.principal-conteudo {
+    padding-right:10rem ;
+}
+
+.title {
+    font-size:48px ;
+    font-weight: 600;
+    color: var(--grey-200);
+}
+
+.button {
+    background: var(--blue);
+    border: none;
+    border-radius: 50px;
+    box-shadow: 1px 3px 4px rgba(19, 125, 224, 0.5);
+    cursor: pointer;
+
+    margin-top:2rem ;
+
+    font-size: 20px;
+    font-family: 'Inter', sans-serif;
+    font-weight: 600;
+    color: var(--white);
+
+    width: 200px;
+    height: 56px;
+
+    transition: .5s all;
+}
+
+.button:hover {
+    background: var(--white-200);
+    color: var(--blue);
+}
+

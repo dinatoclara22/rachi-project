@@ -1,0 +1,23 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    --blue: #0F9AFE;
+    --white: #FFFFFF;
+    --white-200: #EFF8FF;
+    --white-400: #EFF8FF ;
+    --grey-light: #DBDBDB;
+    --grey: #6E7275;
+    --grey-200: #293145;
+}
+
+body {
+    width: 100%;
+    height: 100vh;
+
+    font-family: 'Sora', sans-serif;
+}
+
